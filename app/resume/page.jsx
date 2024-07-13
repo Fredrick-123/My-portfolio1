@@ -21,7 +21,7 @@ import {
 const about = {
   title: "About me",
   description:
-    "I am Fredrick Nicholas, an experienced Full stack Developer who is always on the lookout for creative solutions to everyday problems. Over my 4 years in this field, I have refined my analytical thinking and teamwork abilities, and I thoroughly enjoy collaborating with a team. Through my experience, I have sharpened my attention to detail and critical thinking, as well as improved my communication skills by working on team-based projects and with clients. I am enthusiastic about team collaboration and using my technical expertise to build applications and systems while making a positive impact on the organization and its clients.",
+    "I am Fredrick Nicholas, an experienced Full stack Developer who is always on the lookout for creative solutions to everyday problems. Over my 4 years in this field, I have refined my analytical thinking and teamwork abilities, and I thoroughly enjoy collaborating with a team. Through my experience, I have sharpened my attention to detail and critical thinking, as well as improved my communication skills by working on team-based projects and with clients. ",
   info: [
     {
       fieldName: "Name",
@@ -53,10 +53,10 @@ const about = {
       fieldValue: " fredricknicholas8@gmail.com",
     },
 
-    // {
-    //   fieldName: "Freelance",
-    //   fieldValue: " Available",
-    // },
+    {
+      fieldName: "Freelance",
+      fieldValue: " Available",
+    },
 
     {
       fieldName: "Language",
