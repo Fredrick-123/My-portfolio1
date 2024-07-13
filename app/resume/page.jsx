@@ -48,20 +48,20 @@ const about = {
       fieldValue: " Nigerian",
     },
 
-    {
-      fieldName: "Email",
-      fieldValue: " fredricknicholas8@gmail.com",
-    },
+    // {
+    //   fieldName: "Email",
+    //   fieldValue: " fredricknicholas8@gmail.com",
+    // },
 
-    {
-      fieldName: "Freelance",
-      fieldValue: " Available",
-    },
+    // {
+    //   fieldName: "Freelance",
+    //   fieldValue: " Available",
+    // },
 
-    {
-      fieldName: "Language",
-      fieldValue: " English",
-    },
+    // {
+    //   fieldName: "Language",
+    //   fieldValue: " English",
+    // },
   ],
 };
 
