@@ -50,18 +50,18 @@ const about = {
 
     {
       fieldName: "Email",
-      fieldValue: " fredricknicholas8@gmail.com",
+      fieldValue: "fredricknicholas8@gmail.com",
     },
 
-    // {
-    //   fieldName: "Freelance",
-    //   fieldValue: " Available",
-    // },
+    {
+      fieldName: "Freelance",
+      fieldValue: " Available",
+    },
 
-    // {
-    //   fieldName: "Language",
-    //   fieldValue: " English",
-    // },
+    {
+      fieldName: "Language",
+      fieldValue: " English",
+    },
   ],
 };
 
@@ -316,7 +316,7 @@ const Resume = () => {
                             return ( 
                             <li key={index} className="flex items-center justify-center xl:justify-start gap-4">
                               <span className="text-white/60">{item.fieldName}</span>
-                              <span className="text-xl">{item.fieldValue}</span>
+                              <span className="text-lg">{item.fieldValue}</span>
                             </li>
                             )
                       })}
