@@ -53,10 +53,10 @@ const about = {
       fieldValue: " fredricknicholas8@gmail.com",
     },
 
-    {
-      fieldName: "Freelance",
-      fieldValue: " Available",
-    },
+    // {
+    //   fieldName: "Freelance",
+    //   fieldValue: " Available",
+    // },
 
     {
       fieldName: "Language",
