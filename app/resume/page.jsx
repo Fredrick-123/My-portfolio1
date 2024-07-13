@@ -316,7 +316,7 @@ const Resume = () => {
                             return ( 
                             <li key={index} className="flex items-center justify-center xl:justify-start gap-4">
                               <span className="text-white/60">{item.fieldName}</span>
-                              <span className="text-lg">{item.fieldValue}</span>
+                              <span className="text-sm xl:text-xl">{item.fieldValue}</span>
                             </li>
                             )
                       })}
