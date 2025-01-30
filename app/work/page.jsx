@@ -77,6 +77,30 @@ const projects = [
     live: "https://arizona-rho.vercel.app/",
     github: " https://github.com/Fredrick-123/NEXTJS-REACT-APP-Arizona",
   },
+
+  {
+    num: " 05",
+    category: "Frontend",
+    title: "Car Auto Hub",
+    description:
+      "Car Auto Hub is a Responsive car showcase web application made with Next.js , TailwinCss , TypeScript and other frameworks",
+      stack: [{ name: "Next.js" }, { name: "tailwindCss" }, { name: "Typescript" }],
+    image: "/assets/work/work-5.png",
+    live: "https://auto-showcase.vercel.app/",
+    github: "https://github.com/Fredrick-123/Auto-showcase",
+  },
+
+  {
+    num: " 06",
+    category: "Frontend",
+    title: "Fizzi",
+    description:
+      "Fizzi is a Responsive 3D Ecommerce Landing page Web application made using next.js, typescript, tailwindcss and other frameworks",
+    stack: [{ name: "Next.js14" }, { name: "Three.js" }, { name: "Typescript" }],
+    image: "/assets/work/work-6.png",
+    live: "https://fizzi-opal.vercel.app/",
+    github: "https://github.com/Fredrick-123/Fizzi",
+  },
 ];
 
 const Work = () => {
