@@ -7,7 +7,7 @@ import { FiDownload } from "react-icons/fi";
 
 
 export default function Home() {
- const Resume = "/💼 Professional Summary2.pdf"
+ const Resume = "/💼 Professional Summary.pdf" 
   return (
     <section className="h-full">
       <div className="container mx-auto h-full">
