@@ -40,6 +40,96 @@ const projects = [
 
   {
     num: " 02",
+    category: "Full Stack",
+    title: "Imagify",
+    description:
+      "Imagify AI Image Generator SaaS (Next.js + Payments)",
+    stack: [
+      { name: "Next.js" },
+      { name: "Stripe" },
+      // { name: "Framer motion" },
+    ],
+    image: "/assets/work/imagify.png",
+    live: "https://imagify-lemon-three.vercel.app/",
+    github: "https://github.com/Fredrick-123/imagify",
+  },
+
+  {
+    num: " 03",
+    category: "Full Stack",
+    title: "PingUp",
+    description:
+      "PingUp Social Media Platform (React + Vite + SSE) and other frameworks and components",
+    stack: [{ name: "React.js" }, { name: "Clerk" }],
+    image: "/assets/work/Pingup.png",
+    live: "https://pingup-sigma.vercel.app/",
+    github: "https://github.com/Fredrick-123/PingUp ",
+  },
+
+  {
+    num: " 04",
+    category: "Full Stack",
+    title: "DentWise",
+    description:
+      "DentWise is an AI Dental Platform (Modern UI/UX) and other frameworks",
+    stack: [{ name: "Prisma" }, { name: "Node.js" }, { name: "Mongodb" }],
+    image: "/assets/work/dentwise.png",
+    live: "https://dentwise.vercel.app/",
+    github: "https://github.com/Fredrick-123/dentwise",
+  },
+
+  {
+    num: " 05",
+    category: "Full Stack",
+    title: "QuickChat ",
+    description:
+      " Real Time Chat App made with React.js , socket.io , mongodb and other frameworks",
+      stack: [{ name: "React.js" }, { name: "socket.io" }, { name: " mongodb " }],
+    image: "/assets/work/quickchat.png",
+    live: "https://quickchat-ebon.vercel.app/",
+    github: "https://github.com/Fredrick-123/Quickchat",
+  },
+
+
+  {
+    num: " 06",
+    category: "Full Stack",
+    title: "FoodTopia ",
+    description:
+      "Foodtopia is a Full-stack food ordering platform with authentication and payment functionality.",
+      stack: [{ name: "Node.js" }, { name: "mongodb" }, { name: "vite" }],
+    image: "/assets/work/foodtopia.png",
+    live: "https://foodtopia-frontend.onrender.com/",
+    github: "https://github.com/Fredrick-123/foodtopia-frontend",
+  },
+
+  {
+    num: " 07",
+    category: "Frontend",
+    title: "Car Auto Hub",
+    description:
+      "Car Auto Hub is a Responsive car showcase web application made with Next.js , TailwinCss , TypeScript and other frameworks",
+      stack: [{ name: "Next.js" }, { name: "tailwindCss" }, { name: "Typescript" }],
+    image: "/assets/work/work-5.png",
+    live: "https://auto-showcase.vercel.app/",
+    github: "https://github.com/Fredrick-123/Auto-showcase",
+  },
+
+
+  {
+    num: " 08",
+    category: "Frontend",
+    title: "Fizzi",
+    description:
+      "Fizzi is a Responsive 3D Ecommerce Landing page Web application made using next.js, typescript, tailwindcss and other frameworks",
+    stack: [{ name: "Next.js14" }, { name: "Three.js" }, { name: "Typescript" }],
+    image: "/assets/work/work-6.png",
+    live: "https://fizzi-opal.vercel.app/",
+    github: "https://github.com/Fredrick-123/Fizzi",
+  },
+
+   {
+    num: " 09",
     category: "Frontend",
     title: "project 2",
     description:
@@ -55,7 +145,7 @@ const projects = [
   },
 
   {
-    num: " 03",
+    num: " 10",
     category: "Frontend",
     title: "Amazon",
     description:
@@ -67,7 +157,7 @@ const projects = [
   },
 
   {
-    num: " 04",
+    num: " 11",
     category: "Frontend",
     title: "Arizona",
     description:
@@ -78,29 +168,7 @@ const projects = [
     github: " https://github.com/Fredrick-123/NEXTJS-REACT-APP-Arizona",
   },
 
-  {
-    num: " 05",
-    category: "Frontend",
-    title: "Car Auto Hub",
-    description:
-      "Car Auto Hub is a Responsive car showcase web application made with Next.js , TailwinCss , TypeScript and other frameworks",
-      stack: [{ name: "Next.js" }, { name: "tailwindCss" }, { name: "Typescript" }],
-    image: "/assets/work/work-5.png",
-    live: "https://auto-showcase.vercel.app/",
-    github: "https://github.com/Fredrick-123/Auto-showcase",
-  },
 
-  {
-    num: " 06",
-    category: "Frontend",
-    title: "Fizzi",
-    description:
-      "Fizzi is a Responsive 3D Ecommerce Landing page Web application made using next.js, typescript, tailwindcss and other frameworks",
-    stack: [{ name: "Next.js14" }, { name: "Three.js" }, { name: "Typescript" }],
-    image: "/assets/work/work-6.png",
-    live: "https://fizzi-opal.vercel.app/",
-    github: "https://github.com/Fredrick-123/Fizzi",
-  },
 ];
 
 const Work = () => {
